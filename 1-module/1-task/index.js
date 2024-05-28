@@ -3,7 +3,6 @@ function factorial(n) {
   let currentFactor;
 
   for (let i = 0; i <= n; i++) {
-    debugger;
     currentFactor = i !== 0 ? i : 1;
     result = result * currentFactor;
   }
